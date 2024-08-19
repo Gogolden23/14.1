@@ -1,0 +1,55 @@
+
+.slider{
+    width: 800px;
+    height: 400px;
+    background:  url(first.jpg);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    25%{
+        background: url(fith.jpeg);
+    }
+    50%{
+        background: url(sixth.jpg);
+    }
+    75%{
+        background: url(seventh.jpg);
+    } 
+}
+
+
+#Table{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+#Table th,tr{
+    border: 10px;
+    font-style: italic;
+    border-style: groove;
+    padding: 15px 35px;
+    border-color: black;
+    text-decoration: solid;
+    color: brown;
+}
+
+#Links {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+#Links th{
+    padding: 30px 60px;
+    border: 15px;
+    border-style: groove;
+    border-color: black;
+    text-decoration: solid;
+}
+#container{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+
